@@ -594,6 +594,11 @@
     (uuid fe0426c4-cf98-43f5-98fd-1e651f79fe1d)
   )
 
+  (label "ANDRIS_SPEZIAL" (at 136.398 89.662 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 28cce762-e927-4394-b2e9-369e0a429f33)
+  )
+
   (global_label "LED" (shape input) (at 133.096 82.042 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 47f78925-1111-4c7b-a862-2aa3d77159d6)
@@ -877,7 +882,7 @@
     (uuid a51f058c-ae9e-4d69-8e71-d5af26dc99b2)
     (property "Reference" "J2" (id 0) (at 187.452 50.8 0))
     (property "Value" "I2C" (id 1) (at 187.452 53.34 0))
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" (id 2) (at 187.452 62.738 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 187.452 62.738 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 187.452 62.738 0)
@@ -1003,7 +1008,7 @@
       (reference "J1") (unit 1) (value "Neopixel") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/a51f058c-ae9e-4d69-8e71-d5af26dc99b2"
-      (reference "J2") (unit 1) (value "I2C") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
+      (reference "J2") (unit 1) (value "I2C") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/b197f5cc-8f5d-43bb-8a76-f5df2cd86ed2"
       (reference "J4") (unit 1) (value "Connections") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
