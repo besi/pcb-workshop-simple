@@ -202,7 +202,7 @@
       (net 14 "Net-(J4-Pad5)") (pinfunction "Pin_5") (pintype "passive") (tstamp d11928c1-1972-4b06-8ecd-5a79f14a1939))
     (pad "6" thru_hole oval (at 0 12.7 180) (size 3 2) (drill 1) (layers *.Cu *.Mask)
       (net 15 "Net-(J4-Pad6)") (pinfunction "Pin_6") (pintype "passive") (tstamp bddcdebe-4e8b-414f-b7e3-9e0cd4364ef6))
-    (pad "7" thru_hole oval (at 0 15.24 180) (size 3 2) (drill 1) (layers *.Cu *.Mask)
+    (pad "7" thru_hole oval (at 0 15.24 180) (size 3 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 16 "Net-(J4-Pad7)") (pinfunction "Pin_7") (pintype "passive") (tstamp 2a2c7405-4290-4487-ac00-1534bc32fd97))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
@@ -299,9 +299,9 @@
     (fp_line (start 0.66 1.25) (end 6.96 1.25) (layer "F.Fab") (width 0.1) (tstamp 58873aba-dae7-4a71-b680-ddb5d9a406e8))
     (fp_line (start 6.96 1.25) (end 6.96 -1.25) (layer "F.Fab") (width 0.1) (tstamp 80d0e618-4064-4e45-8df5-69eab034bbb7))
     (fp_line (start 6.96 -1.25) (end 0.66 -1.25) (layer "F.Fab") (width 0.1) (tstamp b7c7e150-1683-4ef9-a01d-722c940cf752))
-    (pad "1" thru_hole oval (at 0 0 270) (size 3 2.5) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0 270) (size 3 2.5) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(D1-Pad1)") (pintype "passive") (tstamp 36a9dffc-1644-4597-879c-719189d4cae3))
-    (pad "2" thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pintype "passive") (tstamp fae0b0b5-94e4-450a-9b67-6c2d8125ba1e))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -342,9 +342,9 @@
     (fp_line (start -1.23 -1.469694) (end -1.23 1.469694) (layer "F.Fab") (width 0.1) (tstamp 52dd48d0-d716-4b1f-8a3e-ac58459dbb6b))
     (fp_arc (start -1.23 -1.469694) (mid 4.17 0.000016) (end -1.230016 1.469666) (layer "F.Fab") (width 0.1) (tstamp 28b685e0-ea8a-4b47-aff4-96f36ef24a95))
     (fp_circle (center 1.27 0) (end 3.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 820118d5-3876-4d9b-82df-7ca287d69adc))
-    (pad "1" thru_hole oval (at 0 0 270) (size 3 2.5) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "1" thru_hole oval (at 0 0 270) (size 3 2.5) (drill 1) (layers *.Cu *.Mask)
       (net 10 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp e9b9f585-9e0b-4e85-a3c8-6bbb5360e0e5))
-    (pad "2" thru_hole oval (at 2.54 0 270) (size 3 2.5) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 2.54 0 270) (size 3 2.5) (drill 1) (layers *.Cu *.Mask)
       (net 11 "LED") (pinfunction "A") (pintype "passive") (tstamp 1a4c6e7b-a208-46c0-8c81-3c7f5af56a8d))
     (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.wrl"
       (offset (xyz 0 0 0))
@@ -490,9 +490,6 @@
   )
 
   (gr_rect (start 114 66.6444) (end 158.0132 94.0348) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp cfd70efe-7f0f-4c12-81ab-3ac9c349c066))
-  (gr_text "TODO:\n\n- Check Groove I2C adapter orientation\n" (at 69 63) (layer "F.SilkS") (tstamp 6e39342c-ad70-4ebd-9c2c-1cc7595129c7)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
-  )
 
   (segment (start 147.386 79.06) (end 144.81 79.06) (width 0.8) (layer "B.Cu") (net 2) (tstamp 536f965a-0781-493b-8181-9297007e5e2d))
   (segment (start 150.9268 82.6008) (end 147.386 79.06) (width 0.8) (layer "B.Cu") (net 2) (tstamp 976978a7-2934-4734-8326-d53a69aa8a63))
